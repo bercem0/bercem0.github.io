@@ -78,12 +78,49 @@
     color: var(--text-color);
 }
 
+:root {
+    --purple: #b817ca;
+    --dark-bg: #111;
+    --dark-bg-2: #440530;
+}
+
+.border-purple {
+    border-color: var(--purple) !important;
+}
+
+.text-purple {
+    color: var(--purple) !important;
+}
+
+.btn-purple {
+    background-color: var(--purple);
+    color: white;
+    border: none;
+}
+
+.btn-purple:hover {
+    background-color: #9b14a3;
+    color: white;
+}
+
+.btn-outline-purple {
+    border-color: var(--purple);
+    color: var(--purple);
+}
+
+.btn-outline-purple:hover {
+    background-color: var(--purple);
+    color: white;
+}
+
+
+/*
 .card {
     background-color: var(--motivation-background-color);
     border: 4px dashed var(--panel-border-color);
     padding: 5px;
     border-radius: 5px;
-    box-shadow: 0 0 20px var(--panel-box-shadow-color); /* Schaduw effect voor panel */
+    box-shadow: 0 0 20px var(--panel-box-shadow-color); 
 }
 
 .card ul {
@@ -126,7 +163,7 @@
     background-color: #5a3780;
     color: #ffffff;
     box-shadow: 0 6px 14px rgba(90,55,128,0.7);
-}
+} */
 
 
 /*About*/
