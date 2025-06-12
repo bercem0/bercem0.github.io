@@ -1,0 +1,147 @@
+/* Hoofdkleurinstellingen voor de website */
+:root {
+    --home-background-color: black;
+    --home-text-color: white;
+    --nav-bg-color: #111;
+    --border-color: #79125b;
+    --social-icons-color: #b817ca;
+    --social-icons-border: #8728b4;
+    --social-icons-background: pink;
+    --hover-color: magenta;
+    --border-bottom-focus-color: #de69f9;
+    --border-bottom-input-color: #8c8989;
+    --input-label-color: #655656;
+    --text-color: #ef0eb7;
+    --box-shadow-img: rgba(0, 0, 0, 0.5);
+    --motivation-background-color: #440530;
+    --motivation-border-color: rgb(237, 154, 168);
+    --motivation-text-color: #ec5bc8;
+    --h3-color: #e588ce;
+    --panel-border-color: #08b19ace;
+    --panel-box-shadow-color: rgb(99, 233, 248);
+    --progress-bar-background-color: #ddd;
+    --progress-background-color: #4caf50;
+    --contact-form-h2-color: #ea75cc;
+    --panel-h2-color: rgb(251, 198, 198);
+}
+
+/* Home */
+.text-section h1 {
+    font-size: 3em;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 2px 2px 5px var(--home-text-color); /* Schaduw effect op tekst */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid var(--social-icons-border);
+    border-radius: 50%;
+    font-size: 20px;
+    color: var(--social-icons-color);
+    text-decoration: none;
+    transition: .5s; /* Zorg voor een soepele overgang bij hover */
+}
+
+.social-icons a:hover {
+    background: var(--social-icons-background);
+    color: var(--home-background-color);
+}
+
+/* Project */
+.textsection h1,
+.textsection h3,
+.textsection h5 {
+    font-size: 2em;
+    font-style: italic;
+    text-shadow: 2px 2px 5px var(--social-icons-color); /* Schaduw effect op tekst */
+    color: var(--text-color);
+}
+
+.textsection p,
+.textsection li {
+    font-style: italic;
+    text-shadow: 2px 2px 5px var(--social-icons-color);
+    color: var(--text-color);
+}
+
+.card {
+    background-color: var(--motivation-background-color);
+    border: 4px dashed var(--panel-border-color);
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px var(--panel-box-shadow-color); /* Schaduw effect voor panel */
+}
+
+.card ul {
+    font-size: 10px;
+    margin: 5px 0;
+    padding-left: 20px;
+    color: var(--social-icons-background);
+}
+
+.card p {
+    color: var(--social-icons-background);
+    font-size: 10px;
+}
+
+.card h2 {
+    color: var(--panel-h2-color);
+}
+
+.github {
+    background-color: #ffffff;
+    color: #764ba2;
+    border: none;
+    padding: 6px 15px;
+    font-weight: 600;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    box-shadow: 0 4px 10px rgba(118,75,162,0.4);
+    margin-left: 45px;
+}
+
+.github a {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+}
+
+.github:hover {
+    background-color: #5a3780;
+    color: #ffffff;
+    box-shadow: 0 6px 14px rgba(90,55,128,0.7);
+}
+
+
+/*About*/
+.motivation {
+    background-color: #440530;
+    border: 2px solid #555;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.motivation h3,
+.motivation p,
+.about p {
+    text-align: center;
+    font-style: italic;
+    text-shadow: 2px 2px 5px #888;
+}
