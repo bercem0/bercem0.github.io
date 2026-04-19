@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  --background: #000000; 
+  --card-bg: #0a0a0a;  
+  --accent: #3b82f6;
+}
+
+body {
+  background-color: var(--background);
+  color: white;
+  background-image: 
+    radial-gradient(circle at 50% -20%, rgba(59, 130, 246, 0.15), transparent 50%);
+}
+
+.ultra-card {
+  background: var(--card-bg);
+  border: 1px solid #1a1a1a; 
+  border-radius: 20px;
+  transition: all 0.4s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.ultra-card:hover {
+  border-color: var(--accent); 
+  box-shadow: 0 0 30px rgba(59, 130, 246, 0.1);
+  transform: translateY(-8px);
+}
