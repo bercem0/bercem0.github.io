@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // Bu çok önemli!
+  output: 'export', 
   images: {
-    unoptimized: true, // GitHub Pages için şart
+    unoptimized: true,
   },
 };
 

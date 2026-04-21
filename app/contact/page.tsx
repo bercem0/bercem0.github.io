@@ -52,7 +52,7 @@ export default function ContactPage() {
         </a>
 
         <a
-          href="https://linkedin.com/in/bercem-yildirim"
+          href="www.linkedin.com/in/bercem-yildirim-7767b0334"
           target="_blank"
           className="group relative p-8 bg-zinc-900 border border-white/10 rounded-3xl hover:bg-zinc-800 transition-all duration-300 text-center"
         >
