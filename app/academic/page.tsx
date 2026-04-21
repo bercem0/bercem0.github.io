@@ -7,7 +7,7 @@ export default function AcademicPage() {
       degree: "Software Developer (MBO niveau 4)",
       date: "2024 - Heden",
       image: "/images/roc-mondriaan-logo.png",
-      details: "Focus op full-stack development, databases en professionele software engineering."
+      details: "Focus op full-stack development, databases en softwareontwikkeling."
     },
     {
       school: "ROC Mondriaan - ISK",
@@ -21,7 +21,7 @@ export default function AcademicPage() {
       degree: "HAVO - Diploma",
       date: "2016 - 2020",
       image: "/images/images.png",
-      details: "Algemene middelbare schoolopleiding met focus op exacte vakken en taalontwikkeling."
+      details: "Middelbare school afgerond (HAVO-niveau), Turkije."
     }
   ];
 

@@ -23,8 +23,8 @@ const projects = [
     date: "02/2026 - 04/2026",
   },
   {
-    title: "Route To HBO",
-    desc: "Mijn persoonlijke digitale werkruimte en startpagina voor projectbeheer.",
+    title: "RouteToHBO",
+    desc: "Voor dit project heb ik samen met een klasgenoot en een student uit de richtingen Software Development (SD) en IT samengewerkt. We hebben met Canva AI een interactieve website ontwikkeld. De game helpt mbo-studenten bij het kiezen van een passende HBO-opleiding op basis van hun interesses en vaardigheden.Tijdens dit project heb ik onderzoek gedaan, vragen gemaakt en samengewerkt in het team.",
     tags: ["HTML", "CSS", "JavaScript", "Canva-AI"],
     img: "/images/route-to-hbo.png",
     link: "https://sharjeel-ecom.my.canva.site/c4ktrqjcpk73txzd",
