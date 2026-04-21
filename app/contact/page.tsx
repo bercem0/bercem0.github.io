@@ -63,7 +63,7 @@ export default function ContactPage() {
         </a>
 
         <a
-          href="https://github.com/bercemO"
+          href="https://github.com/bercem0"
           target="_blank"
           className="group relative p-8 bg-zinc-900 border border-white/10 rounded-3xl hover:bg-zinc-800 transition-all duration-300 text-center"
         >
