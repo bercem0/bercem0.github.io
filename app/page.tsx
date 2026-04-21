@@ -37,7 +37,7 @@ export default function HomePage() {
 
       {/* DESCRIPTION */}
       <p className="mt-6 text-center max-w-xl text-zinc-400 text-lg leading-relaxed">
-      Hallo, mijn naam is Bercem Yildirim en ik ben een eerstejaars student Software Developer aan ROC Mondriaan. Mijn passie ligt bij technologie en het creëren van innovatieve oplossingen. 
+      Hallo, mijn naam is Bercem Yildirim en ik ben een tweedejaars student Software Developer aan ROC Mondriaan. Mijn passie ligt bij technologie en het creëren van innovatieve oplossingen. 
       Ik ben een leergierige en nieuwsgierige persoon die graag nieuwe vaardigheden ontwikkelt en uitdagingen aangaat.
 
       Naast mijn studie werk ik aan persoonlijke projecten om mijn kennis te verdiepen en mijn creativiteit te tonen. 
