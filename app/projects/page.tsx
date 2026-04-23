@@ -58,6 +58,7 @@ const projects = [
     ],
     img: "/images/sdg_dashboard.webp",
     link: "https://github.com/bercem0/sdg-dashboard",
+    demo: "https://bercem0-sdg-dashboard-iiiq-lk5sehm5r-bercem0.vercel.app",
     date: "11/2025 - 01/2026",
   },
   {
