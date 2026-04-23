@@ -19,6 +19,7 @@ const projects = [
     ],
     img: "/images/logo.png",
     link: "https://github.com/bercem0/WorkSpace",
+    demo: "bercem-work-space-gamma.vercel.app",
     isLogo: true,
     date: "02/2026 - 04/2026",
   },
@@ -36,16 +37,27 @@ const projects = [
     tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "VSCode"],
     img: "/images/cv.png",
     link: "https://github.com/bercem0/CV_Bercem_Yildirim",
+    demo: "cv-bercem-yildirim.vercel.app",
     isLogo: true,
     date: "02/2026 - 04/2026",
   },
   {
     title: "SDG Dashboard",
     desc: "In dit groepsproject hebben we een interactief dashboard gebouwd dat de Sustainable Development Goals (SDG’s) van de Verenigde Naties visualiseert. Het doel was om ingewikkelde data simpel en duidelijk weer te geven met grafieken.",
-    tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Chart.js", "MySQL", "Prisma", "VSCode", "PHPMyAdmin"],
+    tags: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Chart.js",
+      "MySQL",
+      "Prisma",
+      "VSCode",
+      "PHPMyAdmin",
+    ],
     img: "/images/sdg_dashboard.webp",
     link: "https://github.com/bercem0/sdg-dashboard",
-    date: "11/2025 - 01/2026"
+    date: "11/2025 - 01/2026",
   },
   {
     title: "Budget Buddy",
@@ -85,6 +97,7 @@ const projects = [
     tags: ["HTML", "CSS", "JavaScript", "VSCode"],
     img: "/images/tic-tac-toe-spel.jpg",
     link: "https://github.com/bercem0/build-a-game-portal",
+    demo: "build-a-game-portal.vercel.app",
     date: "11/2024 - 01/2025",
   },
   {
@@ -93,6 +106,7 @@ const projects = [
     tags: ["HTML", "CSS", "JavaScript", "VSCode"],
     img: "/images/hoger-lager-spel.jpg",
     link: "https://github.com/bercem0/hoger-lager-spel",
+    demo: "hoger-lager-spel-snowy.vercel.app",
     date: "09/2024 - 11/2024",
   },
 ];
@@ -113,7 +127,8 @@ export default function ProjectsPage() {
         </h1>
         <div className="w-16 h-[2px] bg-white/20 mx-auto mt-6" />
         <p className="mt-6 text-zinc-400 max-w-xl mx-auto">
-          Een volledige selectie van mijn ontwikkelprojecten waarin ik werk met moderne technologieën en schaalbare oplossingen.
+          Een volledige selectie van mijn ontwikkelprojecten waarin ik werk met
+          moderne technologieën en schaalbare oplossingen.
         </p>
       </div>
 
@@ -141,9 +156,7 @@ export default function ProjectsPage() {
                 {p.date}
               </span>
 
-              <h2 className="text-2xl font-bold mt-2 text-white">
-                {p.title}
-              </h2>
+              <h2 className="text-2xl font-bold mt-2 text-white">{p.title}</h2>
 
               <p className="text-zinc-400 text-sm mt-2 leading-relaxed">
                 {p.desc}
@@ -167,6 +180,16 @@ export default function ProjectsPage() {
               >
                 Bekijk Project →
               </a>
+
+              {p.demo && (
+                <a
+                  href={p.demo}
+                  target="_blank"
+                  className="mt-3 inline-flex w-fit px-5 py-2 rounded-xl bg-blue-600 text-white text-sm font-semibold hover:bg-blue-500 transition"
+                >
+                  Live Demo →
+                </a>
+              )}
             </div>
           </div>
         ))}
