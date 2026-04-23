@@ -19,7 +19,7 @@ const projects = [
     ],
     img: "/images/logo.png",
     link: "https://github.com/bercem0/WorkSpace",
-    demo: "bercem-work-space-gamma.vercel.app",
+    demo: "https://bercem-work-space-gamma.vercel.app",
     isLogo: true,
     date: "02/2026 - 04/2026",
   },
@@ -29,6 +29,7 @@ const projects = [
     tags: ["HTML", "CSS", "JavaScript", "Canva-AI"],
     img: "/images/route-to-hbo.png",
     link: "https://sharjeel-ecom.my.canva.site/c4ktrqjcpk73txzd",
+    demo: "https://https://sharjeel-ecom.my.canva.site/c4ktrqjcpk73txzd",
     date: "02/2026 - 04/2026",
   },
   {
@@ -37,7 +38,7 @@ const projects = [
     tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "VSCode"],
     img: "/images/cv.png",
     link: "https://github.com/bercem0/CV_Bercem_Yildirim",
-    demo: "cv-bercem-yildirim.vercel.app",
+    demo: "https://cv-bercem-yildirim.vercel.app",
     isLogo: true,
     date: "02/2026 - 04/2026",
   },
@@ -97,7 +98,7 @@ const projects = [
     tags: ["HTML", "CSS", "JavaScript", "VSCode"],
     img: "/images/tic-tac-toe-spel.jpg",
     link: "https://github.com/bercem0/build-a-game-portal",
-    demo: "build-a-game-portal.vercel.app",
+    demo: "https://build-a-game-portal.vercel.app",
     date: "11/2024 - 01/2025",
   },
   {
@@ -106,7 +107,7 @@ const projects = [
     tags: ["HTML", "CSS", "JavaScript", "VSCode"],
     img: "/images/hoger-lager-spel.jpg",
     link: "https://github.com/bercem0/hoger-lager-spel",
-    demo: "hoger-lager-spel-snowy.vercel.app",
+    demo: "https://hoger-lager-spel-snowy.vercel.app",
     date: "09/2024 - 11/2024",
   },
 ];
