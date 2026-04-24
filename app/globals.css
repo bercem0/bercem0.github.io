@@ -1,29 +1,40 @@
 @import "tailwindcss";
 
 :root {
-  --background: #000000; 
-  --card-bg: #0a0a0a;  
-  --accent: #3b82f6;
+  --background: #120207;
+  --surface: #2a0610;
+  --primary: #b0123a;
+  --text: #e6c2c9;
+  --muted: #a97b86;
 }
 
 body {
   background-color: var(--background);
-  color: white;
-  background-image: 
-    radial-gradient(circle at 50% -20%, rgba(59, 130, 246, 0.15), transparent 50%);
+  color: var(--text);
+  overflow-x: hidden;
 }
 
-.ultra-card {
-  background: var(--card-bg);
-  border: 1px solid #1a1a1a; 
-  border-radius: 20px;
-  transition: all 0.4s ease;
-  position: relative;
-  overflow: hidden;
+/* optional subtle texture */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(circle at 50% 0%, rgba(176,18,58,0.15), transparent 60%);
+  pointer-events: none;
 }
 
-.ultra-card:hover {
-  border-color: var(--accent); 
-  box-shadow: 0 0 30px rgba(59, 130, 246, 0.1);
-  transform: translateY(-8px);
+html {
+  scroll-behavior: smooth;
+}
+
+/* fade animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
