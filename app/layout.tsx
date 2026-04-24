@@ -49,9 +49,9 @@ export default function RootLayout({
           <div className="max-w-6xl mx-auto px-6">{children}</div>
         </main>
 
-        <footer className="border-t border-[#b0123a]/20 bg-[#120207] text-center py-10">
+        <footer className="relative z-20 border-t border-[#b0123a]/20 bg-[#120207] text-center py-10">
           <p className="text-sm text-[#e6c2c9]">
-            © {new Date().getFullYear()} Zekiye Bercem Yildirim
+            © {new Date().getFullYear()} Portfolio van Zekiye Bercem Yildirim
           </p>
         </footer>
 
